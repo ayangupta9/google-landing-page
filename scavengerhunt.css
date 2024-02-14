@@ -1,0 +1,100 @@
+body {
+    font-family: monospace;
+    text-align: left;
+    margin: 5px;
+    color: lime;
+    text-shadow: lime 0px 0px 4px;
+    font-size: x-large;
+    background-color: #000;
+    height: 100%;
+}
+
+.cmd-text {
+    color: lime;
+    text-shadow: lime 0px 0px 4px;
+    font-family: monospace;
+}
+
+/* canvas {
+    display: block;
+    height: 95vh;
+    width: 99.7vw;
+    background-color: black;
+    z-index: -99;
+    position: absolute;
+    opacity: 0.5;
+} */
+
+#cmd-screen {
+    display: block;
+    overflow-y: hidden;
+    height: 75vh;
+}
+
+#scavenger-hunt-screen {
+    visibility: hidden;
+    color: lime;
+    text-shadow: lime 0px 0px 4px;
+    width: 100%;
+    /* background-color: blue; */
+    /* height: 90vh; */
+}
+
+#container {
+    visibility: hidden;
+    /* background-color: red; */
+}
+
+.play-game-btn {
+    outline: solid 0.001em lime;
+    background-color: transparent;
+    border-radius: 2px;
+    border: none;
+    font-family: monospace;
+    text-shadow: lime 0px 0px 4px;
+    color: lime;
+    width: 70px;
+    height: 20px;
+}
+
+.riddle-input {
+    border: none;
+    outline: solid 0.001em #00ff00;
+    background-color: black;
+    border-radius: 2px;
+    border: none;
+    font-family: monospace;
+    text-shadow: lime 0px 0px 4px;
+    color: lime;
+    height: 18px;
+}
+
+.animate {
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#qrcode {
+    position: absolute;
+    width: 100%;
+    /* background-color: red; */
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    /* margin-left: auto;  */
+    /* margin-right: auto;  */
+}

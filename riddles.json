@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Dustbin",
+        "riddle": "Although it may be smelly, with debris and refuse aplenty, there's more to it than just your abode.",
+        "passcode": "#7@9!",
+        "note": "Our love shines bright amidst the trash, a beacon of hope in the dark.",
+        "successMessage": "Dug through the trash like your own abode. Ugh. Suits you ;)",
+        "value": "🤮"
+    },
+    {
+        "name": "Wardrobe",
+        "riddle": "I am becoming an expert at opening these open. I just can't keep my hands off 'em",
+        "passcode": "6*2^4",
+        "note": "Amongst the fabric of our lives, our love weaves a story of joy and surprise.",
+        "successMessage": "Pssst. Your bras? They look cute on you :3 More so when they're off you ;)",
+        "value": "👙"
+    },
+    {
+        "name": "Under the bed",
+        "riddle": "CODE under our stars. Literally. Kinda.",
+        "passcode": "(16+9)",
+        "note": "Under our resting place, our love finds solace and space.",
+        "successMessage": "Jokes aside, To lie down and hug you tightly, caress you and smother you with kisses. I'd sell my soul, periodt.",
+        "value": "💤"
+    },
+    {
+        "name": "Chocolate place",
+        "riddle": "Brownie, Milk, Cake, Ice-cream, syrup, condom. It's omnipresent.",
+        "passcode": "8&5!",
+        "note": "Amongst chocolate's sweetness, our love is the sweetest caress.",
+        "successMessage": "Fun proposition: making love with nutella sounds like a good idea ;)",
+        "value": "🍫"
+    },
+    {
+        "name": "Inside sanitary pads",
+        "riddle": "The Haemoglobin Ritual",
+        "passcode": "@3%6",
+        "note": "In feminine comfort's embrace, our love offers strength and grace.",
+        "successMessage": "Hope it didn't cramp your style..... Get it?.....Nvm",
+        "value": "🩸"
+    },
+    {
+        "name": "Inside receipts bag",
+        "riddle": "You think I'm stupid for keeping these? My accountant would LOVE me.",
+        "passcode": "(2,4,6)",
+        "note": "Amongst receipts and bills, our love offers thrills.",
+        "successMessage": "Mit kart, bitte.",
+        "value": "💵"
+    },
+    {
+        "name": "Inside the box of cigarettes",
+        "riddle": "Smoke and Mirrors. Literally.",
+        "passcode": "kangana",
+        "note": "In indulgence's haze, our love finds its blaze.",
+        "successMessage": "....Sutta hojaye?",
+        "value": "🚬"
+    }
+]

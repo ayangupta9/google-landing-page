@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 100px;
+    background-color: #fff;
+    margin: 0;
+}
+
+.error-container {
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.logo {
+    width: 272px;
+    /* Adjust the width as necessary */
+    height: auto;
+}
+
+h1 {
+    color: #202124;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+p {
+    color: #000000;
+    font-size: 14px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+
+#imgcontainer img {
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+#huh {
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    left: -5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    transition: linear 0.2s;
+    top: -5em;
+}
+
+#circle {
+    background-color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    transition: linear 0.2s;
+}
+
+#mole {
+    width: 75%;
+    height: 75%;
+    rotate: 150deg;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+#huh:hover {
+    cursor: url('public/question-mark.png'), default;
+}
+
+#huh:hover #circle {
+    height: 0%;
+    width: 0%;
+    /* opacity: 0.0; */
+}
