@@ -1,5 +1,3 @@
-import './style.css'
-
 let searchBar = document.getElementById('searchbar')
 let submitBtn = document.getElementById('google-submitbtn')
 
